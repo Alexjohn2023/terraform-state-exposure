@@ -145,3 +145,5 @@ After completing this lab, you should understand:
 ## Author
 
 Alexander Njoku
+https://www.linkedin.com/in/alexander-njoku-62040a194/
+https://medium.com/@alex2020global
