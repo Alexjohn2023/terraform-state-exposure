@@ -1,3 +1,6 @@
+![Terraform](https://img.shields.io/badge/Terraform-1.10+-623CE4)
+![Security](https://img.shields.io/badge/Focus-Cloud%20Security-blue)
+![IaC](https://img.shields.io/badge/Infrastructure-as-Code-green)
 
 # Terraform State Exposure Lab
 
@@ -6,6 +9,7 @@
 This lab demonstrates why `sensitive = true` is not enough and how Terraform 1.10+ ephemeral values help protect secrets from being written to state.
 
 ## Overview
+
 
 This repository demonstrates a common Terraform security risk: sensitive values being stored in Terraform state files.
 
@@ -19,6 +23,11 @@ This lab shows:
 * Best practices for securing Terraform state
 
 ---
+## Key Finding
+
+Terraform's `sensitive = true` hides values from CLI output, but does **not** prevent those values from being written to the Terraform state file.
+
+Terraform 1.10+ introduces **ephemeral values**, which can prevent sensitive values from being stored in state when used with supported workflows.
 
 ## Project Structure
 
