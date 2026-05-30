@@ -1,10 +1,9 @@
-cat > .gitignore << 'EOF'
 # Terraform state files - NEVER commit these
 *.tfstate
 *.tfstate.backup
 *.tfstate.lock.info
 
-# Terraform variable files - contain secrets
+# Terraform variable files - may contain secrets
 *.tfvars
 
 # Terraform directories
@@ -21,4 +20,3 @@ override.tf.json
 
 # Plan files
 *.tfplan
-EOF
