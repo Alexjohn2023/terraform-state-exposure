@@ -1,4 +1,9 @@
+
 # Terraform State Exposure Lab
+
+![Terraform State Exposure Demo](Images/blog_img2_state_exposed.png)
+
+This lab demonstrates why `sensitive = true` is not enough and how Terraform 1.10+ ephemeral values help protect secrets from being written to state.
 
 ## Overview
 
