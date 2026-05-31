@@ -147,3 +147,5 @@ After completing this lab, you should understand:
 Alexander Njoku
 https://www.linkedin.com/in/alexander-njoku-62040a194/
 https://medium.com/@alex2020global
+GitHub: https://github.com/Alexjohn2023
+Portfolio: https://zandersworldview.com
