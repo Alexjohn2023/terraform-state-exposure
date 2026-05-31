@@ -2,10 +2,6 @@
 ![AWS](https://img.shields.io/badge/AWS-EC2-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-![Terraform](https://img.shields.io/badge/Terraform-1.10+-623CE4)
-![Security](https://img.shields.io/badge/Focus-Cloud%20Security-blue)
-![IaC](https://img.shields.io/badge/Infrastructure-as-Code-green)
-
 # Terraform State Exposure Lab
 
 ![Terraform State Exposure Demo](Images/blog_img2_state_exposed.png)
